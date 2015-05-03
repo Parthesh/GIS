@@ -58,7 +58,7 @@ title('VORONOI DIAGRAM');
 axis equal;
 hold on
 plot(Y(:,1),Y(:,2),'rx','MarkerSize',10);
-legend('Sample Points','Voronoi polygon vertices','Location','northoutside','Orientation','horizontal');
+
 
 for ii=1:lim
     a=combos(tri(ii),:);
